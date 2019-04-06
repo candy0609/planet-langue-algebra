@@ -2,10 +2,11 @@ body {
 	max-width: 992px;
 	margin: 0 auto; 
 	background-color: #f2e9e4;
+	color: #22223b;
 }
 
 .bg-dark {
-    background-color: #22223b !important;
+	background-color: #22223b !important;
 }
 
 .nav-link {
@@ -16,4 +17,38 @@ body {
 
 .nav-link.active {
 	color: #c9ada7 !important;
+}
+
+.card {
+	background-color: #c9ada7;
+}
+
+.card-text {
+	font-weight: 400;
+}
+
+.card hr {
+	border-top: 2px solid #22223b;
+	width: 40px;
+}
+
+.gap {
+	height: 3em;
+}
+
+.footer {
+	background-color:#22223b;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: 992px;
+}
+
+.hr-footer {
+	border-top: 1px solid #c9ada7;
+}
+
+.copyright {
+	color: #f2e9e4;
+	text-align: center;
 }
