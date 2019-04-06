@@ -1,0 +1,19 @@
+body {
+	max-width: 992px;
+	margin: 0 auto; 
+	background-color: #f2e9e4;
+}
+
+.bg-dark {
+    background-color: #22223b !important;
+}
+
+.nav-link {
+	color: #f2e9e4 !important;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.nav-link.active {
+	color: #c9ada7 !important;
+}
