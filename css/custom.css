@@ -54,6 +54,20 @@ body {
 	max-width: 992px;
 }
 
+.social {
+	color: #c9ada7;
+	font-size: 3rem;
+}
+
+.social a {
+	color: #c9ada7;
+	font-size: 3rem;
+}
+
+.social-icon {
+	letter-spacing: -0.3em;
+}
+
 .hr-footer {
 	border-top: 1px solid #c9ada7;
 }
