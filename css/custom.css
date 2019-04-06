@@ -5,6 +5,8 @@ body {
 	color: #22223b;
 }
 
+/* HEADER */
+
 .bg-dark {
 	background-color: #22223b !important;
 }
@@ -18,6 +20,12 @@ body {
 .nav-link.active {
 	color: #c9ada7 !important;
 }
+
+.right {
+	margin-left: auto;
+}
+
+/* MAIN */
 
 .card {
 	background-color: #c9ada7;
@@ -33,8 +41,10 @@ body {
 }
 
 .gap {
-	height: 3em;
+	min-height: 3em;
 }
+
+/* FOOTER */
 
 .footer {
 	background-color:#22223b;
