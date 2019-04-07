@@ -143,6 +143,17 @@ main .card i {
 	border-bottom: none;
 }
 
+main .nav-link, .dropdown-item {
+	color: #22223b !important;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+main .nav-link:hover, .dropdown-item:hover {
+	color: #c9ada7 !important;
+}
+
+
 .gap {
 	min-height: 4em;
 }

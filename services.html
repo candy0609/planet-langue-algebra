@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <title>Planet Langue</title>
@@ -12,7 +13,7 @@
 
     <header>
       <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#" id="top">
           <img src="images/logo_light.png" height="30" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,10 +52,154 @@
         </div>
       </div>
     </header>
-    
-    <h1>Welcome to Planet Langue</h1>
-    <p class="h2">h2. Bootstrap heading</p>
-    <p>Bootstrap heading</p>
+
+    <main>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#online-tutoring">Online tutoring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#book-club">Book club</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#workshops">Workshops</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#trips">Trips</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Languages</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#english">English</a>
+            <a class="dropdown-item" href="#german">German</a>
+            <a class="dropdown-item" href="#french">French</a>
+            <a class="dropdown-item" href="#italian">Italian</a>
+          </div>
+        </li>
+      </ul>
+      <div class="container">
+        <h1>Services</h1>
+        <div class="row">
+          <div class="col" id="online-tutoring">
+            <div class="media">
+              <div class="row">
+                <div class="col-12 col-sm-5 my-2">
+                  <img src="images/tutoring.jpg" class="align-self-start mr-3 img-fluid" alt="Online tutoring">
+                </div>
+                <div class="col-12 col-sm-7">
+                  <div class="media-body">
+                    <h5 class="mt-0">Online tutoring</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <a class="btn btn-primary float-right" href="#top">Back to top</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" id="book-club">
+            <div class="media">
+              <div class="row">
+                <div class="col-12 col-sm-5 my-2">
+                  <img src="images/book_club.jpg" class="align-self-start mr-3 img-fluid" alt="Book club">
+                </div>
+                <div class="col-12 col-sm-7">
+                  <div class="media-body">
+                    <h5 class="mt-0">Book club</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <a class="btn btn-primary float-right" href="#top">Back to top</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" id="workshops">
+            <div class="media">
+              <div class="row">
+                <div class="col-12 col-sm-5 my-2">
+                  <img src="images/workshop.jpg" class="align-self-start mr-3 img-fluid" alt="Workshops and seminars">
+                </div>
+                <div class="col-12 col-sm-7">
+                  <div class="media-body">
+                    <h5 class="mt-0">Workshops and seminars</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <a class="btn btn-primary float-right" href="#top">Back to top</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" id="trips">
+            <div class="media">
+              <div class="row">
+                <div class="col-12 col-sm-5 my-2">
+                  <img src="images/travel.jpg" class="align-self-start mr-3 img-fluid" alt="Trips to relevant countries">
+                </div>
+                <div class="col-12 col-sm-7">
+                  <div class="media-body">
+                    <h5 class="mt-0">Trips to relevant countries</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <a class="btn btn-primary float-right" href="#top">Back to top</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Languages</h1>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3" id="english">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span class="flag-icon flag-icon-gb"></span> English</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3" id="german">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span class="flag-icon flag-icon-de"></span> German</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3" id="french">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span class="flag-icon flag-icon-fr"></span> French</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3" id="italian">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span class="flag-icon flag-icon-it"></span> Italian</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     
     <footer class="footer">
       <div class="container">
