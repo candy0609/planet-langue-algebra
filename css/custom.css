@@ -186,6 +186,68 @@ a.btn-primary:focus {
     box-shadow: none;
 }
 
+.btn-light {
+    color: #f2e9e4;
+    background-color: #4a4e69;
+    border-color: #4a4e69;
+}
+
+.btn-light:hover {
+    color: #f2e9e4;
+    background-color: #4a4e69;
+    border-color: #f2e9e4;
+}
+
+.btn-light:focus {
+    color: #f2e9e4 !important;
+    background-color: #4a4e69 !important;
+    border-color: #f2e9e4 !important;
+    box-shadow: none;
+}
+
+.btn-dark {
+    color: #f2e9e4;
+    background-color: #22223b;
+    border-color: #9a8c98;
+}
+
+.btn-dark:hover {
+    color: #f2e9e4;
+    background-color: #22223b;
+    border-color: #f2e9e4;
+}
+
+.btn-dark:focus {
+    color: #f2e9e4 !important;
+    background-color: #22223b !important;
+    border-color: #f2e9e4 !important;
+    box-shadow: none;
+}
+
+.pricing-table {
+	width: 80%;
+	margin: 2em auto;
+}
+
+.pricing-table td {
+	width: 30%;
+	padding: 2em;
+	border-left: 2px solid #22223b;
+    border-right: 2px solid #22223b;
+}
+
+.pricing-table tr:first-child {
+     border-top: 2px solid #22223b;
+}
+
+.pricing-table tr:last-child {
+     border-bottom: 2px solid #22223b;
+}
+
+.price {
+	color: #4a4e69;
+}
+
 /* FOOTER */
 
 .footer {
