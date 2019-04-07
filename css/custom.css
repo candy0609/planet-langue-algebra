@@ -49,6 +49,48 @@ body {
 	color: #f2e9e4;
 }
 
+.header-catalog {
+	background: 
+    linear-gradient(
+      rgba(201,173,167,0.7), 
+      rgba(201,173,167,0.7)
+    ),
+    url(../images/catalog.jpg);
+	background-position: center;
+	height: auto;
+	color: #f2e9e4;
+}
+
+.header-pricing {
+	background: 
+    linear-gradient(
+      rgba(201,173,167,0.7), 
+      rgba(201,173,167,0.7)
+    ),
+    url(../images/pricing.jpg);
+	background-position: center;
+	height: auto;
+	color: #f2e9e4;
+}
+
+.header-contact {
+	background-image: url(../images/contact.jpg);
+	background: 
+    linear-gradient(
+      rgba(201,173,167,0.0), 
+      rgba(201,173,167,0.0)
+    ),
+    url(../images/contact.jpg);
+	background-position: 50% 85%;
+	background-size: auto;
+	height: auto;
+	color: #f2e9e4;
+}
+
+.header-shadow, h1 h6 {
+	text-shadow: 2px 2px #22223b;
+}
+
 .bg-dark {
 	background-color: #22223b !important;
 }
