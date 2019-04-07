@@ -115,12 +115,21 @@ body {
 
 /* MAIN */
 
-main {
+.background-primary {
 	background-color: #ffffff;
 }
 
-main .card {
+.background-secondary {
+	background-color: #f2e9e4;
+}
+
+.card-primary {
 	background-color: #ffffff;
+	border: none;
+}
+
+.card-secondary {
+	background-color: #f2e9e4;
 	border: none;
 }
 
