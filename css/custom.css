@@ -7,30 +7,46 @@ body {
 
 /* HEADER */
 
-.header {
+.header-home {
 	background-image: url('../images/header_image.jpg');
 	background-position: center;
 	height: auto;
 	color: #f2e9e4;
 }
 
-.header h1 {
+.header-home h1 {
 	text-transform: uppercase;
 }
 
-.header p {
+.header-home p {
 	font-size: 1.5rem;
 
 }
 
-.header button {
+.header-home button {
 	text-transform: uppercase;
 	font-weight: 600;
 }
 
-.header hr {
+.header-home hr {
 	border-top: 4px solid #9a8c98;
 	width: 60px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.header-services {
+	background: 
+    linear-gradient(
+      rgba(201,173,167,0.3), 
+      rgba(201,173,167,0.3)
+    ),
+    url(../images/note-preview.jpg);
+	background-position: center;
+	height: auto;
+	color: #f2e9e4;
 }
 
 .bg-dark {
